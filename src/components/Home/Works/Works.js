@@ -11,7 +11,7 @@ import carousel5 from '../../../images/carousel-5.png'
 const Works = () => {
   return (
     <section className="work-container my-5 py-5">
-            <h2 className="text-white text-center">Here are some of <span className="text-success">our works</span></h2>
+            <h2 className="text-white text-center">Here are some of <span style={{color: "#7AB259"}}>our works</span></h2>
             <div className="my-5">
                 <Carousel>
                     <div>

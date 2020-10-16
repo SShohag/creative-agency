@@ -1,7 +1,12 @@
 .service-detail button:hover{
     box-shadow: 5px 5px 20px gray;
     background-color: #1defde;
+    transform: translateX(0px) translateY(25px);
+    transition: transform 500ms ease-in-out 25ms;
 }
-button{
+.service-detail button{
+    height: 150px;
+    overflow-x: auto;
     border:none;
+    border-radius: 10px;
 }

@@ -25,12 +25,6 @@ const TotalServiceList = () => {
             <div className="d-flex justify-content-between">
               <h4>Service List</h4>
               <div className="d-flex">
-                <img
-                  style={{ height: "30px", width: "30px" }}
-                  className="img-circle mr-2"
-                  src={loggedInUser.userImg}
-                  alt=""
-                />
                 <h4>{loggedInUser.name}</h4>
               </div>
             </div>
