@@ -1,0 +1,9 @@
+.feedbacks{
+    box-shadow: 5px 5px 20px gray;
+    text-align: justify;
+}
+.feedback-body{
+    height: 100px;
+    /* overflow: hidden; */
+    overflow-y: auto;
+}

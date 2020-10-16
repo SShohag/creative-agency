@@ -1,0 +1,34 @@
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    text-align: center;
+    width: 75%;
+    height: 2.5em;
+    margin-left:5px;
+    border: 1px solid green;
+    border-radius:5px;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    background-color: lightgreen;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputfile:focus + label {
+	outline: 1px dotted red;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.order{
+    
+    width: 100%;
+    height: 100vh;
+    background-color:lightgray;
+    
+}

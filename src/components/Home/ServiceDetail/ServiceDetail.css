@@ -1,0 +1,7 @@
+.service-detail button:hover{
+    box-shadow: 5px 5px 20px gray;
+    background-color: #1defde;
+}
+button{
+    border:none;
+}
