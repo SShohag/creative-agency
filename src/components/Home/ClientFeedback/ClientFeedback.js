@@ -11,7 +11,7 @@ const ClientFeedback = () => {
     const [userReviews, setUserReviews] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/userReviews')
+        fetch('https://limitless-meadow-31971.herokuapp.com/userReviews')
         .then(res => res.json())
         .then(data => {
             data.slice(0, 5)

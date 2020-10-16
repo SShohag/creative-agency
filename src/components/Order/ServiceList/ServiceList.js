@@ -7,7 +7,7 @@ const ServiceList = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/order?email=" + loggedInUser.email)
+    fetch("https://limitless-meadow-31971.herokuapp.com/order?email=" + loggedInUser.email)
       .then((res) => res.json())
       .then((data) => {
         setOrders(data);

@@ -9,7 +9,7 @@ const TotalServiceList = () => {
   const [totalOrders, setTotalOrders] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/totalOrders")
+    fetch("https://limitless-meadow-31971.herokuapp.com/totalOrders")
       .then((res) => res.json())
       .then((data) => setTotalOrders(data));
   }, []);

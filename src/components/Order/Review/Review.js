@@ -10,7 +10,7 @@ const Review = () => {
     const { handleSubmit, register, errors } = useForm();
 
     const onSubmit = data => {
-        fetch('http://localhost:5000/addReview', {
+        fetch('https://limitless-meadow-31971.herokuapp.com/addReview', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify(data)

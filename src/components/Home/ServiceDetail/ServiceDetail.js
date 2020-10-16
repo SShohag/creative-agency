@@ -17,7 +17,7 @@ const ServiceDetail = ({service}) => {
     return (
         <div className=" h-100 col-md-4 text-center mr-auto">
                 <button onClick={()=> handleService(service.title)}>
-                    <img style={{height:"75px"}} src={`http://localhost:5000/${service.img}`} alt=""/>
+                    <img style={{height:"75px"}} src={`https://limitless-meadow-31971.herokuapp.com/${service.img}`} alt=""/>
                     <h4> {service.title} </h4>
                     <p> {service.description} </p>
                 </button>

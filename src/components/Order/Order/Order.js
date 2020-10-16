@@ -17,7 +17,7 @@ const Order = () => {
     const history = useHistory();
 
     const onSubmit = data =>{
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://limitless-meadow-31971.herokuapp.com/addOrder', {
             method: 'POST',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(data)
