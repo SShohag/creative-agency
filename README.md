@@ -1,3 +1,14 @@
+# Creative Agency-Service Seller Application
+
+This is a online service seller application where user can buy their likeable service and also they can send us their valuable opinion.
+
+### Features
+- This is an online service order place where you can order service with details
+- You can also give your feedback and also review your feedback at this site
+- In this application, the admin can add another person as a temporary admin
+- In this application, the admin can add a new service if he wants
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
